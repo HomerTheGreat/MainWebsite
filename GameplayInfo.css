@@ -1,0 +1,168 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, serif;
+    background-image: url("Images/back_2.png");
+}
+
+h1
+{
+    position: absolute;
+    font-family: Consolas, serif;
+    font-size: 65px;
+    left: 750px;
+    top: 22px;
+    height: auto;
+    color: darkgray;
+    z-index: 2;
+}
+
+#first
+{
+    position: absolute;
+    top: 345px;
+    left: 880px;
+    z-index: 2;
+    color: white;
+    font-family: "Bauhaus 93";
+}
+
+#TheButton
+{
+    position: absolute;
+    top: 1325px;
+    left: 825px;
+}
+
+#Second
+{
+    position: absolute;
+    color: antiquewhite;
+    left: 250px;
+    font-family: "Bauhaus 93";
+    font-size: 27px;
+    left: 570px;
+    top: 465px;
+    z-index: 1;
+}
+
+#Third
+{
+    position: absolute;
+    top: 820px;
+    left: 900px;
+    color: white;
+    font-family: "Bauhaus 93";
+    z-index: 2;
+}
+
+#Fourth
+{
+    position: absolute;
+    color: antiquewhite;
+    left: 570px;
+    top: 930px;
+    font-family: "Bauhaus 93";
+    font-size: 27px;
+    z-index: 1;
+}
+
+#sixth
+{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#seventh
+{
+    z-index: 1;
+    position: absolute;
+    left: 1670px;
+    top: 0;
+}
+
+#Ninth
+{
+    position: absolute;
+    left: 500px;
+    top: -70px;
+    font-family: "Bauhaus 93";
+    font-size: 27px;
+    z-index: 1;
+}
+
+#Tenth
+{
+    position: absolute;
+    top: 330px;
+    left: 800px;
+    z-index: 1;
+}
+
+#Eleventh
+{
+    position: absolute;
+    top: 500px;
+    left: 565px;
+
+}
+
+#Twelve
+{
+    position: absolute;
+    top: 950px;
+    left: 565px;
+}
+
+#Thirteenth
+{
+    position: absolute;
+    top: 800px;
+    left: 800px;
+    z-index: 1;
+}
+
+.button
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-family: "Britannic Bold", serif;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1
+{
+    background: none;
+    color: black;
+    border: none;
+    position: absolute;
+    font-family: "Bauhaus 93";
+    font-size: 35px;
+    top: 1330px;
+    left: 860px;
+    animation-delay: 1s;
+    z-index: 2;
+}
+
+.button1:hover {
+    background-color: #20B2AA;
+    color: white;
+}
+
+.button1{
+    border-radius: 50%;
+}
+
+

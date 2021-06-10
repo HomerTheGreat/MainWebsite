@@ -1,0 +1,393 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, serif;
+    background-image: url("Images/back_2.png");
+}
+
+h1
+{
+    position: absolute;
+    font-family: Consolas, serif;
+    font-size: 65px;
+    left: 650px;
+    top: 22px;
+    height: auto;
+    color: darkgray;
+    z-index: 2;
+}
+
+@keyframes fadeIn
+{
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.fadeInAnimated
+{
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+}
+
+#second
+{
+    position: absolute;
+    color: antiquewhite;
+    left: 250px;
+    font-family: "Bauhaus 93";
+    font-size: 27px;
+    top: 320px;
+    animation-delay: 1s;
+    z-index: 1;
+}
+
+#third
+{
+    position: absolute;
+    animation-delay: 1s;
+    left: 1129px;
+    top: 692px;
+    font-family: "Bauhaus 93";
+    color: white;
+    z-index: 2;
+    animation-delay: 2s;
+}
+
+#Video1
+{
+    position: absolute;
+    left: 1050px;
+    top: 50px;
+    z-index: 5;
+}
+
+#videotitle
+{
+    position: absolute;
+    color: white;
+    left: 1400px;
+    top: 45px;
+    z-index: 5;
+    font-family: "Bauhaus 93";
+}
+
+#fourth
+{
+    animation-delay: 1s;
+    z-index: 0;
+    position: absolute;
+    left: 470px;
+    top: 250px;
+}
+
+h2
+{
+    position: absolute;
+    color: white;
+    left: 548px;
+    top:270px;
+    z-index: 1;
+    animation-delay: 1s;
+    font-family: "Bauhaus 93";
+}
+
+#fds
+{
+    position: absolute;
+    animation-delay: 3s;
+    left: 1159px;
+    top: 1610px;
+    font-family: "Bauhaus 93";
+    font-size: 25px;
+    color: white;
+    z-index: 4;
+}
+
+#fifth
+{
+    z-index: 0;
+    position: absolute;
+    left: 245px;
+    top: 345px;
+    border-radius: 10%;
+    animation-delay: 1s;
+}
+
+#sixth
+{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#seventh
+{
+    z-index: 1;
+    position: absolute;
+    left: 1670px;
+    top: 0;
+}
+
+#Eighth
+{
+    position: absolute;
+    left: 1073px;
+    top: 398px;
+    z-index: 2;
+    animation-delay: 1s;
+}
+
+#Ninth
+{
+    position: absolute;
+    left: 500px;
+    top: -70px;
+    z-index: 1;
+}
+
+#Tenth
+{
+    position: absolute;
+    left: 1047px;
+    top: 670px;
+    z-index: 1;
+    animation-delay: 2s;
+}
+
+#Eleventh
+{
+    z-index: 0;
+    position: absolute;
+    left: 870px;
+    top: 775px;
+    border-radius: 10%;
+    animation-delay: 2s;
+}
+
+#twelfth
+{
+    z-index: 1;
+    font-family: "Bauhaus 93";
+    font-size: 27px;
+    color: white;
+    position: absolute;
+    left: 870px;
+    top: 755px;
+    animation-delay: 2s;
+}
+
+#Thirteenth
+{
+    z-index: 1;
+    position: absolute;
+    top: 835px;
+    left: 400px;
+    animation-delay: 2s;
+}
+
+#Fourteenth
+{
+    position: absolute;
+    left: 1095px;
+    top: 1320px;
+    z-index: 2;
+    animation-delay: 3s;
+}
+
+#Fifteenth
+{
+    animation-delay: 1ms;
+    z-index: 0;
+    position: absolute;
+    left: 470px;
+    top: 1150px;
+    animation-delay: 3s;
+}
+
+#Sixteenth
+{
+    z-index: 0;
+    position: absolute;
+    left: 245px;
+    top: 1275px;
+    border-radius: 10%;
+    animation-delay: 3s;
+}
+
+#Seventeenth
+{
+    position:absolute;
+    top: 1160px;
+    left: 580px;
+    font-size: 25px;
+    font-family: "Bauhaus 93";
+    color: white;
+    z-index: 2;
+    animation-delay: 3s;
+}
+
+#Eighteenth
+{
+    position: absolute;
+    color: antiquewhite;
+    left: 250px;
+    font-family: "Bauhaus 93";
+    font-size: 27px;
+    top: 1250px;
+    animation-delay: 1s;
+    z-index: 1;
+    animation-delay: 3s;
+}
+
+#Ninteenth
+{
+    z-index: 1;
+    position: absolute;
+    top: 1750px;
+    left: 400px;
+    animation-delay: 3s;
+}
+
+#Twenty
+{
+    position: absolute;
+    left: 1047px;
+    top: 1600px;
+    z-index: 3;
+    animation-delay: 2s;
+}
+
+#TwentyOne
+{
+    z-index: 0;
+    position: absolute;
+    left: 847px;
+    top: 1700px;
+    border-radius: 10%;
+    animation-delay: 3s;
+}
+
+#TwentyTwo
+{
+    z-index: 1;
+    font-family: "Bauhaus 93";
+    font-size: 27px;
+    color: white;
+    position: absolute;
+    left: 870px;
+    top: 1675px;
+    animation-delay: 2s;
+}
+
+.button
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1
+{
+    background: none;
+    color: black;
+    border: none;
+    position: absolute;
+    font-family: "Bauhaus 93";
+    font-size: 28px;
+    top: 405px;
+    left: 1095px;
+    animation-delay: 1s;
+    z-index: 2;
+}
+
+.button1:hover {
+    background-color: #20B2AA;
+    color: white;
+}
+
+.button1{
+    border-radius: 50%;
+}
+
+.button2
+{
+    background: none;
+    color: black;
+    border: none;
+    position: absolute;
+    font-family: "Bauhaus 93";
+    font-size: 28px;
+    top: 840px;
+    left: 430px;
+    z-index: 2;
+    animation-delay: 2s;
+}
+
+.button2:hover {
+    background-color: #20B2AA;
+    color: white;
+}
+
+.button2{
+    border-radius: 50%;
+}
+
+.button3
+{
+    background: none;
+    color: black;
+    border: none;
+    position: absolute;
+    font-family: "Bauhaus 93";
+    font-size: 25px;
+    top: 1327px;
+    left: 1115px;
+    z-index: 2;
+    animation-delay: 3s;
+}
+
+.button3:hover {
+    background-color: #20B2AA;
+    color: white;
+}
+
+.button3{
+    border-radius: 50%;
+}
+
+.button4
+{
+    background: none;
+    color: black;
+    border: none;
+    position: absolute;
+    font-family: "Bauhaus 93";
+    font-size: 28px;
+    top: 1755px;
+    left: 425px;
+    z-index: 2;
+    animation-delay: 2s;
+}
+
+.button4:hover {
+    background-color: #20B2AA;
+    color: white;
+}
+
+.button4{
+    border-radius: 50%;
+}
+
+
+
+

@@ -1,0 +1,285 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, serif;
+    background-image: url("Images/back_2.png");
+}
+
+h1
+{
+    position: absolute;
+    font-family: Consolas, serif;
+    font-size: 65px;
+    left: 850px;
+    top: 22px;
+    height: auto;
+    color: darkgray;
+    z-index: 2;
+}
+
+h2
+{
+    position: absolute;
+    top: 245px;
+    left: 537px;
+    z-index: 2;
+    color: white;
+    font-family: "Bauhaus 93";
+}
+
+h3
+{
+    position: absolute;
+    left: 1150px;
+    top: 620px;
+    font-family: "Bauhaus 93";
+    color: white;
+    font-size: 30px;
+    z-index: 2;
+}
+
+#h4
+{
+    position: absolute;
+    top: 1130px;
+    left: 543px;
+    z-index: 2;
+    color: white;
+    font-family: "Bauhaus 93";
+}
+
+#h5
+{
+    position: absolute;
+    left: 1150px;
+    top: 1622px;
+    font-family: "Bauhaus 93";
+    color: white;
+    font-size: 30px;
+    z-index: 2;
+}
+
+#h6
+{
+    position: absolute;
+    top: 2130px;
+    left: 563px;
+    z-index: 2;
+    color: white;
+    font-family: "Bauhaus 93";
+}
+
+#second
+{
+    position: absolute;
+    color: antiquewhite;
+    left: 250px;
+    font-family: "Bauhaus 93";
+    font-size: 25px;
+    left: 245px;
+    top: 330px;
+    z-index: 1;
+}
+
+#fifth
+{
+    z-index: 0;
+    position: absolute;
+    left: 245px;
+    top: 345px;
+    border-radius: 10%;
+}
+
+#sixth
+{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#seventh
+{
+    z-index: 1;
+    position: absolute;
+    left: 1670px;
+    top: 0;
+}
+
+#Ninth
+{
+    position: absolute;
+    left: 575px;
+    top: -70px;
+    z-index: 1;
+}
+
+#Tenth
+{
+    position: absolute;
+    top: 230px;
+    left: 450px;
+    z-index: 1;
+}
+
+#Eleventh
+{
+    position: absolute;
+    left: 1047px;
+    top: 620px;
+    z-index: 1;
+}
+
+#Twelve
+{
+    z-index: 0;
+    position: absolute;
+    left: 870px;
+    top: 725px;
+    border-radius: 10%;
+}
+
+#Thirteenth
+{
+    position: absolute;
+    top: 1130px;
+    left: 450px;
+    z-index: 1;
+}
+
+#Fourteenth
+{
+    z-index: 0;
+    position: absolute;
+    left: 245px;
+    top: 1250px;
+    border-radius: 10%;
+}
+
+#Fifteenth
+{
+    position: absolute;
+    left: 1047px;
+    top: 1620px;
+    z-index: 1;
+}
+
+#Sixteenth
+{
+    z-index: 0;
+    position: absolute;
+    left: 870px;
+    top: 1720px;
+    border-radius: 10%;
+}
+
+#Seventeenth
+{
+    position: absolute;
+    top: 2130px;
+    left: 450px;
+    z-index: 1;
+}
+
+#Eighteenth
+{
+    position: absolute;
+    top: 2230px;
+    left: 245px;
+    z-index: 1;
+    border-radius: 10%;
+}
+
+#Paragraph2
+{
+    z-index: 1;
+    font-family: "Bauhaus 93";
+    font-size: 23px;
+    color: white;
+    position: absolute;
+    left: 880px;
+    top: 705px;
+}
+
+#Paragraph3
+{
+    z-index: 1;
+    font-family: "Bauhaus 93";
+    font-size: 23px;
+    color: white;
+    position: absolute;
+    left: 245px;
+    top: 1245px;
+}
+
+#Paragraph4
+{
+    z-index: 1;
+    font-family: "Bauhaus 93";
+    font-size: 23px;
+    color: white;
+    position: absolute;
+    left: 875px;
+    top: 1705px;
+    animation-delay: 2s;
+}
+
+#Paragraph5
+{
+    z-index: 2;
+    font-family: "Bauhaus 93";
+    font-size: 23px;
+    color: white;
+    position: absolute;
+    left: 245px;
+    top: 2230px;
+}
+
+#Last
+{
+    position: absolute;
+    z-index: 1;
+    top: 2500px;
+    left: 1335px;
+}
+
+.button
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-family: "Britannic Bold", serif;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1
+{
+    background: none;
+    color: black;
+    border: none;
+    position: absolute;
+    font-family: "Bauhaus 93";
+    font-size: 35px;
+    top: 2505px;
+    left: 1380px;
+    animation-delay: 1s;
+    z-index: 2;
+}
+
+.button1:hover {
+    background-color: #20B2AA;
+    color: white;
+}
+
+.button1{
+    border-radius: 50%;
+}
